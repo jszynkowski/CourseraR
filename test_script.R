@@ -8,7 +8,7 @@ above  <- function(x, n=10) {
   
 }
 
-colmean  <- function(x, rows="", removeNA=TRUE) {
+colmean  <- function(x, rows, removeNA=TRUE) {
   num_col  <- ncol(x)
   means  <- numeric(num_col)
   for(i in 1:num_col) {
